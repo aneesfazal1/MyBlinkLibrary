@@ -11,6 +11,7 @@ object Blink {
         // adding the color to be shown
         val animator: ObjectAnimator = ObjectAnimator.ofInt(
             view, "backgroundColor", Color.YELLOW,
+
             Color.RED, Color.GREEN
         )
         // duration of one color
